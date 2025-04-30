@@ -1,4 +1,4 @@
--- Q:1 Find top 10 highes revenue generating product.
+-- Q:1 Find top 10 highest revenue generating product.
 select product_id, sum(sale_price) as sales
 from df_orders
 group by product_id
